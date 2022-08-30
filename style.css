@@ -1,0 +1,230 @@
+.fundo {
+    display: flex;
+    flex-direction: column;
+    background-color: #d5d5d5;
+    margin: 0; 
+    font-family: 'profissa';
+}
+
+.titulo {
+
+    font-family: 'profissa';
+    font-weight: 700px;
+    color: black;
+    border: 3px solid black;
+    width: 40%;
+    text-align: center;
+    padding: 1%;    
+    margin-left: -19.5%;
+    margin-top: 20%;
+    
+}
+
+#imagem1 {
+    position: fixed;
+    width: 30%;
+    right: 0;
+    bottom: 0;
+    left:62%;
+  
+}
+
+#maincont {
+    border-top-right-radius: 2%; 
+    border-top-left-radius: 2% ;
+    border-top: 8px solid #866860;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    width: 60%;
+    height: 50em;
+}
+
+#artigo {
+    color: black;
+    padding-left: 5%;
+    font-size: large;
+}
+
+.imagem2 {
+    width: 100%;
+}
+
+.botao1 {
+    width: 40%;
+    cursor: pointer;
+}
+
+.alinharImagens {
+    display: flex;
+    flex-direction: row ;
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+
+.linksite {
+    margin-top: 2%;
+    text-decoration: none;
+    margin-left: 0%;
+    width: 19%;
+    color: black;
+    font-size: medium;
+    margin-left: 0.8%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+@font-face {
+    font-family: Profissa;
+    src: url(fonte/Cherry\ Monospace-Light.ttf)
+}
+
+.caixa1 {
+    height: 100vh;
+    background-image: url(imagens/Captura\ de\ tela\ de\ 2022-07-21\ 16-08-43.png);
+    background-attachment: fixed;
+}
+
+.caixa2 {
+    height: 100vh;
+    background-image: url(imagens/Captura\ de\ tela\ de\ 2022-08-09\ 16-25-40.png);
+    background-attachment: fixed;
+}
+
+.caixa3 {
+    height: 100vh;
+    background-image: url(imagens/Captura\ de\ tela\ de\ 2022-08-10\ 12-35-51.png);
+    background-attachment: fixed;
+}
+
+.caixa4 {
+    height: 100vh;
+    background-image: url(imagens/Captura\ de\ tela\ de\ 2022-08-10\ 12-42-19.png);
+    background-attachment: fixed;
+}
+
+.textoCaix1 {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 22vh;
+   align-items: center;
+   align-content: center;
+   text-align: center;
+}
+
+.tudo {
+    height: 100vh;
+}
+
+#tamanhoNick {
+    width: 155%;
+    margin-top: -15%;
+    opacity : 0.5;
+}
+
+#cabecalho {
+
+    background-color: white;
+    height: 6vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: space-between;
+    
+}
+
+.botão {
+    border: 0;
+    cursor: pointer;
+    background-color: white;
+    width: 2%;
+  
+}
+
+.imagembot {
+    margin-left: 1%;
+    margin-top: -0.08%;
+    width: 4%;
+    padding-right: 50px;
+   
+}
+
+.alinhabot {
+    
+    width: 40px;
+
+}
+
+.numzap {
+    color:#8d8c8c ;
+    padding-top: 2px;
+}
+
+.botão1 {
+    border: 0;
+    cursor: pointer;
+    background-color: white;
+    width: 2%;
+  
+}
+
+.imagembot1 {
+    margin-left: 0%;
+    margin-top: -0.08%;
+    width: 4%;
+   
+}
+
+.alinhabot1 {
+    width: 70px;
+}
+
+.botão2 {
+    border: 0;
+    cursor: pointer;
+    background-color: white;
+    width: 2%;
+  
+}
+
+.imagembot2 {
+    margin-left: 1%;
+    margin-top: -0.08%;
+    width: 4%;
+   
+}
+
+.alinhabot2 {
+    width: 50px;
+}
+
+.botão3 {
+    border: 0;
+    cursor: pointer;
+    background-color: white;
+    width: 2%;
+  
+}
+
+.imagembot3 {
+    margin-left: 1%;
+    margin-top: -0.08%;
+    width: 4%;
+   
+}
+
+.alinhabot3 {
+    width: 40px;
+}
+
+.bordaScroll {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+

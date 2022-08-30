@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <header class="position-absolute top-0 start-50 translate-middle-x"><h1>Minha Lista de Tarefas</h1></header>
+    <main class="position-absolute top-50 start-50 translate-middle border p-3"> 
+        <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+        <input class = 'shadow p-3 mb-5 bg-body rounded' id="texto-tarefa">
+        <ol class="mouseCur" id="lista-tarefas"></ol>
+        <button class="btn btn-outline-secondary shadow p-3 mb-5 bg-body rounded" id="criar-tarefa">Criar</button>
+        <button class="btn btn-outline-secondary shadow p-3 mb-5 bg-body rounded" id="apaga-tudo">Apagar tudo</button>
+        <button class="btn btn-outline-secondary shadow p-3 mb-5 bg-body rounded" id="remover-finalizados">Apagar finalizados
+        </button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

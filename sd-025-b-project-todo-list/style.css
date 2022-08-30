@@ -1,0 +1,11 @@
+.back {
+   background-color: #CACACA;
+}
+
+.completed{
+  text-decoration: line-through rgb(0, 0, 0);
+}
+
+.mouseCur {
+  
+}

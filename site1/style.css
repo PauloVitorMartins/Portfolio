@@ -1,0 +1,108 @@
+body {
+    flex-direction: column;
+    display: flex;
+    background-color: #f9f9f9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: normal;
+    margin: 0;
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #ffffff;
+    height: 3em;
+    border-bottom: 1px solid #efefef;
+    
+}
+   
+
+#titulo {
+    padding-left: 1%;
+    padding-top: 0.1%;
+    color: #3d495c;
+    font-size: 100%;
+}
+
+#minha_foto {
+    width: 15%;
+    border-radius: 8%;
+    height: 14em;
+}
+
+#licoes_a_aprender {
+    margin-left: 30%;
+
+}
+
+
+#rodape {
+     border-top: 1px solid #efefef;
+     color: #3d495c;
+     text-align: center;
+     background-color: white;
+     height: 2em;
+     padding-top: 0.7%;
+}
+
+#flutuar {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: row;   
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+#artigo1 {
+    padding: 2%;
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 45%;
+
+}
+
+#artigo2 {
+    margin-top: 3%;
+    width: 20%;
+    margin-left: 10%;
+    padding: 2%;
+
+}
+
+#listas {
+    margin-left: 35%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin-bottom: 10%;
+}
+
+.titulostexto {
+    color: #3d495c;
+}
+
+#imagem2 {
+    margin-top: 10%;
+    width: 20%;
+    margin-left: 40%;
+}
+
+.botão {
+    border: 0;
+    cursor: pointer;
+    background-color: white;
+  
+}
+
+.imagembot {
+    margin-left: 4%;
+    margin-top: -0.08%;
+   
+}
+
+.alinhabot {
+    width: 100%;
+}
