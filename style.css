@@ -270,4 +270,7 @@
    align-content: center;
    text-align: center;
 }
+.truqueDeMestre {
+    display: none;
+}
 }
