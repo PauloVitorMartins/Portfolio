@@ -236,11 +236,16 @@
 
   .alinharImagens {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
   }
 
   #maincont {
     height: 80em;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
   }
 
   .alinhabot {
