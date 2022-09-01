@@ -15,8 +15,13 @@
     width: 40%;
     text-align: center;
     padding: 1%;    
-    margin-left: -19.5%;
-    margin-top: 20%;
+    margin-left: 12%;
+    margin-right: auto;
+    margin-top: 15%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 4%;
     
 }
 
@@ -39,6 +44,7 @@
     background-color: white;
     width: 60%;
     height: 50em;
+    
 }
 
 #artigo {
